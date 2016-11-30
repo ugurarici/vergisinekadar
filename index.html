@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8">
+	<title>Vergisi Ne Kadar?</title>
+	<style>
+		body{
+			font-family: sans-serif;
+			background-color: #eee;
+		}
+
+		.container{
+			margin: 20px auto;
+			width: 720px;
+			padding: 20px;
+			background-color: rgba(0,0,0,.2);
+		}
+
+		.product-group{
+			width: 680px;
+			background-color: rgba(0,0,0,.2);
+			padding: 20px;
+		}
+
+		.container h1, .product-group h2{
+			margin-top: 0px;
+		}
+
+		.product-group+.product-group{
+			margin-top: 20px;
+		}
+
+		.product-group h2 span.highligth-product-group-name{
+			color: #2a4aa5;
+			border-bottom: 3px solid #2a4aa5;
+		}
+
+		.product-group h2 span.highligth-tax{
+			color: brown;
+			border-bottom: 3px solid brown;
+		}
+
+		.product-group .banknote{
+			background-image: url('100-lira.jpg');
+			width: 680px;
+			height: 317px;
+			display: block;
+			background-size: cover;
+		}
+
+		.product-group .banknote span{
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: white;
+			background-color: rgba(0,0,0,.5);
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Vergisi Ne Kadar?</h1>
+		<div class="product-group">
+			<h2>Her 100 liralık <span class="highligth-product-group-name">akaryakıt</span> alışverişimizin <span class="highligth-tax">61,80</span> lirası vergi</h2>
+			<div class="banknote">
+				<span style="width:61.8%;background-color:rgba(222, 104, 17, 0.6);">61,80</span>
+				<span style="width:38.2%;background-color:rgba(47, 115, 202, 0.6);">38,20</span>
+			</div>
+		</div>
+		<div class="product-group">
+			<h2>Her 100 liralık <span class="highligth-product-group-name">elektrik</span> faturamızın <span class="highligth-tax">46,41</span> lirası vergi</h2>
+			<div class="banknote">
+				<span style="width:46.41%;background-color:rgba(222, 104, 17, 0.6);">46,41</span>
+				<span style="width:53.59%;background-color:rgba(47, 115, 202, 0.6);">53.59</span>
+			</div>
+		</div>
+		<div class="product-group">
+			<h2>Her 100 liralık <span class="highligth-product-group-name">şebeke suyu</span> faturamızın <span class="highligth-tax">16,61</span> lirası vergi</h2>
+			<div class="banknote">
+				<span style="width:16.61%;background-color:rgba(222, 104, 17, 0.6);">16,61</span>
+				<span style="width:83.39%;background-color:rgba(47, 115, 202, 0.6);">83,39</span>
+			</div>
+		</div>
+		<div class="product-group">
+			<h2>Her 100 liralık <span class="highligth-product-group-name">telefon</span> faturamızın <span class="highligth-tax">24,81</span> lirası vergi</h2>
+			<div class="banknote">
+				<span style="width:24.81%;background-color:rgba(222, 104, 17, 0.6);">24,81</span>
+				<span style="width:75.19%;background-color:rgba(47, 115, 202, 0.6);">75,19</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
